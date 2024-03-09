@@ -1,0 +1,86 @@
+:root {
+    --primary-color: #FFE6E6; /* Define a primary color variable */
+    --secondary-color: #E1AFD1; /* Define a secondary color variable */
+    --text-color:#AD88C6;
+    --secondary-text-color:#7469B6;
+  }
+
+body{
+    background-color: var(--primary-color);
+    padding: auto;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading{
+    color: var(--text-color);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-head{
+    font-size: 2rem;
+    color: var(--secondary-text-color);
+    
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.weather-box{
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: left;
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.input{
+   height: 25%;
+}
+
+.input input{
+    width: 70%;
+    border-radius: 20px;
+    height: 25px;
+}
+
+.input button{
+    width: 20%;
+    height: 25px;
+    background-color: var(--secondary-text-color);
+    color: var(--primary-color);
+    border-radius: 20px;
+    border:none
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.output .city{
+    color: var(--secondary-text-color);
+    font-size: 3rem;
+    padding: 10px;
+}
+
+.output .weather,.weather-sub{
+    color: var(--secondary-text-color);
+    font-size: 2rem;
+    padding: 10px;
+}
+
